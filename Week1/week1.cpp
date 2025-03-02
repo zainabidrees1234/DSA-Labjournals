@@ -5,18 +5,18 @@
 // int max1(int X, int Y){
 // 	return(X > Y) ? X : Y;
 // }
-// int max2(int X, int Y, int &Larger) {
-// 	Larger = (X > Y) ? X : Y;
+// int max2(int X, int Y, int &larger) {
+// 	larger = (X > Y) ? X : Y;
 // }
-// int max3(int X, int Y , int *Larger) {
-// 	*Larger = (X > Y) ? X : Y;
+// int max3(int X, int Y , int *larger) {
+// 	*larger = (X > Y) ? X : Y;
 // }
 // int main() {
-// 	int Larger = 10;
+// 	int larger = 10;
 // 	int X = 2;
 // 	int Y = 3;
-// 	max3(X, Y, &Larger);
-// 	cout << X << endl << Y << Larger;
+// 	max3(X, Y, &larger);
+// 	cout << X << endl << Y << larger;
 // }
 
 // --------------EXAMPLE 1.2--------------
