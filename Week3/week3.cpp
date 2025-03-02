@@ -4,16 +4,16 @@
 // #include <conio.h>
 // using namespace std;
 
-// int fact(int n) {
+// int factorial(int n) {
 // 	if (n == 0) {
 // 		return 1;
 // 	}
 // 	else {
-// 		return (n * fact(n - 1));
+// 		return (n * factorial(n - 1));
 // 	}
 // }
 // int main() {
-// 	cout << "Factorial of 5 is: " << fact(5) << endl;
+// 	cout << "Factorial of 5 is: " << factorial(5) << endl;
 // 	return 0;
 // }
 
