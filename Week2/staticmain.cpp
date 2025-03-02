@@ -14,19 +14,19 @@ int main (){
 // --------------EXECISE 2.1 (a)--------------
 
     if(choice == 1){
-        Stack s;
+        Stack s1;
         char item;
     
         for (int i = 0; i < 20; i++){
-            s.Push(i);
+            s1.Push(i);
             cout << "Pushed values in stack: " << endl;
             cout << i << " " << endl;
         }
     
-        cout << "Top element (Peek): " << s.Peek() << endl;
+        cout << "Top element (Peek): " << s1.Peek() << endl;
     
         for (int i = 0; i < 20; i++) {
-            s.Pop(item);
+            s1.Pop(item);
             cout << "Popped values from stack: " << endl;
             cout << item << " " << endl;
         }
