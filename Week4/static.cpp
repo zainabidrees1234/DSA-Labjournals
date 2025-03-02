@@ -6,7 +6,7 @@ int main() {
 
     cout << "Inserting 10 numbers into the queue:\n";
     for (int i = 1; i <= 10; i++) {
-        q.Insert(i * 10);  // Inserting multiples of 10
+        q.Insert(i * 10);  
         cout << "Inserted: " << i * 10 << endl;
     }
 

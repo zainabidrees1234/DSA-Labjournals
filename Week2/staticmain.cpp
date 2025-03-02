@@ -1,4 +1,4 @@
-// #include "static.h"
+#include "static.h"
 #include <iostream>
 using namespace std;
 typedef char ItemType;
@@ -11,11 +11,11 @@ int main (){
     cout << "Enter your choice: ";
     cin >> choice;
 
---------------EXECISE 2.1 (a)--------------
+// --------------EXECISE 2.1 (a)--------------
 
     if(choice == 1){
         Stack s;
-        int item;
+        char item;
     
         for (int i = 0; i < 20; i++){
             s.Push(i);
@@ -33,7 +33,7 @@ int main (){
     
     }
 
---------------EXECISE 2.1 (b)--------------
+// --------------EXECISE 2.1 (b)--------------
 
     else if (choice == 2){
         string input;
@@ -45,7 +45,6 @@ int main (){
      return 0;
 
 }
-
 
 
 
