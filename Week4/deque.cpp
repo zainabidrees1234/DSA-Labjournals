@@ -1,7 +1,7 @@
 #include "deque.h"
 int main() {
-    string str = "madam";
-    cout << (isPalindrome(str) ? "Palindrome" : "Not Palindrome") << endl;
+    string word = "madam";
+    cout << (isPalindrome(word) ? "Palindrome" : "Not Palindrome") << endl;
     return 0;
 }
 
