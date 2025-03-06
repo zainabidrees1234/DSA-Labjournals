@@ -1,4 +1,4 @@
-# Week 4 - Priority Queue Implementation in C++
+# Week 5 - Priority Queue Implementation in C++
 
 This repository contains a C++ implementation of a **Priority Queue** using an array of **Queue** objects. The program allows inserting elements with different priority levels and removes them in order of priority.
 
